@@ -1,0 +1,11 @@
+framework module SwiftPkg {
+  umbrella header "SwiftPkg.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftPkg.Swift {
+    header "SwiftPkg-Swift.h"
+    requires objc
+}

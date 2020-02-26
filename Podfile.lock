@@ -1,0 +1,23 @@
+PODS:
+  - SwiftLint (0.39.1)
+  - SwiftPkg (0.1.2):
+    - SwiftLint
+
+DEPENDENCIES:
+  - SwiftPkg (from `./`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  SwiftPkg:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  SwiftLint: 55e96a4a4d537d4a3156859fc1c54bd24851a046
+  SwiftPkg: f4268d7e40ed2589ba724fe45c35065be58cfe39
+
+PODFILE CHECKSUM: 3f84b0a90bdc4ea28f6cc1ad85ecff0805e4b861
+
+COCOAPODS: 1.8.4

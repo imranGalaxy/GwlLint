@@ -1,0 +1,32 @@
+{
+  "name": "SwiftPkg",
+  "version": "0.1.2",
+  "summary": "A short description of PowrSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "peter+galaxy@powr.com": "peter+galaxy@powr.com"
+  },
+  "source": {
+    "path": "./"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "4.2",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.2"
+  },
+  "vendored_frameworks": "SwiftPkg.framework",
+  "static_framework": true,
+  "dependencies": {
+    "SwiftLint": [
+
+    ]
+  },
+  "swift_version": "4.2"
+}
