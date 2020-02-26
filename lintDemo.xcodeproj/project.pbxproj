@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28D02E5B26B123D3D9ACFE93 /* Pods_lintDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F772F7EB041B00D4E60E92BE /* Pods_lintDemo.framework */; };
+		7B2A92F1DA6E8763CEBB3626 /* Pods_lintDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3453862C16E733BB4A1912C /* Pods_lintDemo.framework */; };
 		ECA0BAC124053EC3008DF97D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA0BAC024053EC3008DF97D /* AppDelegate.swift */; };
 		ECA0BAC324053EC3008DF97D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA0BAC224053EC3008DF97D /* SceneDelegate.swift */; };
 		ECA0BAC524053EC3008DF97D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA0BAC424053EC3008DF97D /* ViewController.swift */; };
@@ -17,8 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		42C389773656C3DB4558E6DE /* Pods-lintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintDemo.release.xcconfig"; path = "Target Support Files/Pods-lintDemo/Pods-lintDemo.release.xcconfig"; sourceTree = "<group>"; };
-		AD28152650459A09D2789447 /* Pods-lintDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintDemo.debug.xcconfig"; path = "Target Support Files/Pods-lintDemo/Pods-lintDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9DF249516CBB5CEE3218546D /* Pods-lintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintDemo.release.xcconfig"; path = "Target Support Files/Pods-lintDemo/Pods-lintDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BA0EEFBAC1102EB745F58745 /* Pods-lintDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lintDemo.debug.xcconfig"; path = "Target Support Files/Pods-lintDemo/Pods-lintDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C3453862C16E733BB4A1912C /* Pods_lintDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA0BABD24053EC3008DF97D /* lintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECA0BAC024053EC3008DF97D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECA0BAC224053EC3008DF97D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		ECA0BAC924053EC4008DF97D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECA0BACC24053EC4008DF97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECA0BACE24053EC4008DF97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F772F7EB041B00D4E60E92BE /* Pods_lintDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lintDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,28 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28D02E5B26B123D3D9ACFE93 /* Pods_lintDemo.framework in Frameworks */,
+				7B2A92F1DA6E8763CEBB3626 /* Pods_lintDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4ED89C4AFE594B2E243A98C2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F772F7EB041B00D4E60E92BE /* Pods_lintDemo.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7569E8D0D1B1B05BE9C1EC11 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD28152650459A09D2789447 /* Pods-lintDemo.debug.xcconfig */,
-				42C389773656C3DB4558E6DE /* Pods-lintDemo.release.xcconfig */,
+				BA0EEFBAC1102EB745F58745 /* Pods-lintDemo.debug.xcconfig */,
+				9DF249516CBB5CEE3218546D /* Pods-lintDemo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE0FA144B60FE2BA668C81BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3453862C16E733BB4A1912C /* Pods_lintDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		ECA0BAB424053EC3008DF97D = {
@@ -65,7 +65,7 @@
 				ECA0BABF24053EC3008DF97D /* lintDemo */,
 				ECA0BABE24053EC3008DF97D /* Products */,
 				7569E8D0D1B1B05BE9C1EC11 /* Pods */,
-				4ED89C4AFE594B2E243A98C2 /* Frameworks */,
+				AE0FA144B60FE2BA668C81BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,12 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECA0BAD124053EC4008DF97D /* Build configuration list for PBXNativeTarget "lintDemo" */;
 			buildPhases = (
-				79BA2D584C31C6C50ECA4402 /* [CP] Check Pods Manifest.lock */,
+				35DC5438A5C44E564BF87723 /* [CP] Check Pods Manifest.lock */,
 				ECA0BAB924053EC3008DF97D /* Sources */,
 				ECA0BABA24053EC3008DF97D /* Frameworks */,
 				ECA0BABB24053EC3008DF97D /* Resources */,
 				ECA0BAD5240541D8008DF97D /* ShellScript */,
-				017C215A0A8C443919039D39 /* [CP] Embed Pods Frameworks */,
+				71A9A60306C0E1D1333A3CEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,24 +161,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		017C215A0A8C443919039D39 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-lintDemo/Pods-lintDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-lintDemo/Pods-lintDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lintDemo/Pods-lintDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79BA2D584C31C6C50ECA4402 /* [CP] Check Pods Manifest.lock */ = {
+		35DC5438A5C44E564BF87723 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,6 +181,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71A9A60306C0E1D1333A3CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lintDemo/Pods-lintDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lintDemo/Pods-lintDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lintDemo/Pods-lintDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ECA0BAD5240541D8008DF97D /* ShellScript */ = {
@@ -368,10 +368,11 @@
 		};
 		ECA0BAD224053EC4008DF97D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD28152650459A09D2789447 /* Pods-lintDemo.debug.xcconfig */;
+			baseConfigurationReference = BA0EEFBAC1102EB745F58745 /* Pods-lintDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5525HN7NH;
 				INFOPLIST_FILE = lintDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -386,10 +387,11 @@
 		};
 		ECA0BAD324053EC4008DF97D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 42C389773656C3DB4558E6DE /* Pods-lintDemo.release.xcconfig */;
+			baseConfigurationReference = 9DF249516CBB5CEE3218546D /* Pods-lintDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5525HN7NH;
 				INFOPLIST_FILE = lintDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

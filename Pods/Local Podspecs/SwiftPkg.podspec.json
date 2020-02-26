@@ -1,8 +1,8 @@
 {
   "name": "SwiftPkg",
-  "version": "0.1.2",
-  "summary": "A short description of PowrSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.1",
+  "summary": "It is a dummy summery for testing SwiftLint demo.",
+  "description": "It is a dummy summery for testing SwiftLint demo.",
   "homepage": "https://github.com/",
   "license": {
     "type": "MIT",
@@ -22,7 +22,6 @@
     "SWIFT_VERSION": "4.2"
   },
   "vendored_frameworks": "SwiftPkg.framework",
-  "static_framework": true,
   "dependencies": {
     "SwiftLint": [
 

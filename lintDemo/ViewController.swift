@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var asdasjdkshdjahskdhksahdkahskdhajkshdjkahsdjkhaksdasdsadcxjsbjkdsjkfsjkf: Int = 0
+    //var asdasjdkshdjahskdhksahdkahskdhajkshdjkahsdjkhaksdasdsadcxjsbjkdsjkfsjkf: Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
